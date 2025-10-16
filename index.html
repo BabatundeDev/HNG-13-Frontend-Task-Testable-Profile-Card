@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card | Babatunde Ishau</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <article data-testid="test-profile-card" class="profile-card">
+      <header>
+        <h2 data-testid="test-user-name">Babatunde Ishau</h2>
+      </header>
+
+      <figure class="avatar">
+        <img src="images/Profile.jpg" 
+            alt="Profile photo of Ishau Babatunde" 
+            data-testid="test-user-avatar" />
+      </figure>
+
+      <p data-testid="test-user-bio" class="bio">
+        Passionate Frontend Developer dedicated to crafting responsive, accessible, and high-performing web interfaces that drive engagement and innovation.
+      </p>
+
+      <p data-testid="test-user-time" class="time"></p>
+
+      <nav data-testid="test-user-social-links" class="social-links">
+        <ul>
+          <li><a href="https://github.com/BabatundeDev" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/babatunde-ishau-95ab94359/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+          <li><a href="https://x.com/BabatundeIshau" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+        </ul>
+      </nav>
+
+      <section data-testid="test-user-hobbies" class="hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Designing UI concepts</li>
+          <li>Listening to Music</li>
+          <li>Exploring tech trends</li>
+        </ul>
+      </section>
+
+      <section data-testid="test-user-dislikes" class="dislikes">
+        <h3>Dislikes</h3>
+        <ul>
+          <li>Unoptimized code</li>
+          <li>Slow internet</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
