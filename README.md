@@ -1,4 +1,4 @@
-#HNG 13 Frontend Stage 1 Task — Testable Multi-Page Portfolio
+HNG 13 Frontend Stage 1 Task — Testable Multi-Page Portfolio
 👤 Developer
 
 Name: Babatunde Ishau
@@ -6,7 +6,7 @@ Track: Frontend Wizard
 Stage: 1
 Program: HNG 13 Internship
 
-#🧱 Project Description
+🧱 Project Description
 
 This is a responsive and accessible multi-page portfolio website built with HTML, CSS, and Vanilla JavaScript, fulfilling all HNG 13 Stage 1 specifications.
 
@@ -22,7 +22,7 @@ Proper semantic HTML5 structure and accessibility compliance.
 
 Use of data-testid attributes for automated testing and HNG validation.
 
-#⚙️ Key Features
+⚙️ Key Features
 
 Dynamic Time Display: Updates every second using JavaScript.
 
@@ -34,7 +34,7 @@ Clean UI: Optimized for readability, spacing, and modern design principles.
 
 Accessibility: ARIA labels, clear structure, and user-friendly tab order.
 
-#🧩 Technologies Used
+🧩 Technologies Used
 
 HTML5
 
@@ -42,7 +42,7 @@ CSS3 (Responsive Design & Layout Structure)
 
 Vanilla JavaScript (DOM Manipulation & Validation Logic)
 
-#🧠 How It Works
+🧠 How It Works
 
 Users can navigate between Home, About, and Contact pages via the navbar.
 
@@ -58,7 +58,7 @@ If valid, a success message appears:
 
 The form resets automatically afterward.
 
-#🧪 Test Attributes
+🧪 Test Attributes
 
 All critical elements contain data-testid attributes as required for automated testing by HNG:
 
@@ -70,10 +70,10 @@ test-contact-name, test-contact-email, test-contact-subject, test-contact-messag
 
 test-contact-error-* and test-contact-success
 
-#🌐 Deployment
+🌐 Deployment
 
 Hosted live on GitHub Pages and Netlify for easy accessibility and testing.
 
-#💡 Developer’s Note
+💡 Developer’s Note
 
 This task demonstrates strong attention to detail, clean coding standards, and practical frontend problem-solving — a solid step toward more advanced HNG challenges ahead.
