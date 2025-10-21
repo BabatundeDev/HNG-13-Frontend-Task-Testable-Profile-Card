@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Babatunde Ishau</title>
+  <link rel="stylesheet" href="styles/contact.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Babatunde Ishau</div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <form data-testid="test-contact-form" class="contact-form" novalidate>
+      <h2>Contact Us</h2>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" data-testid="test-contact-name" aria-describedby="test-contact-error-name" required />
+      <small id="test-contact-error-name" class="error-message"></small>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" data-testid="test-contact-email" aria-describedby="test-contact-error-email" required />
+      <small id="test-contact-error-email" class="error-message"></small>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" data-testid="test-contact-subject" aria-describedby="test-contact-error-subject" required />
+      <small id="test-contact-error-subject" class="error-message"></small>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" data-testid="test-contact-message" aria-describedby="test-contact-error-message" required></textarea>
+      <small id="test-contact-error-message" class="error-message"></small>
+
+      <button type="submit" data-testid="test-contact-submit">Submit</button>
+      <p class="success-message" data-testid="test-contact-success"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
